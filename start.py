@@ -1586,7 +1586,7 @@ if __name__ == '__main__':
                 rpc = int(argv[6])
                 timer = int(argv[7])
                 proxy_ty = int(argv[3].strip())
-                proxy_li = Path(__dir__ / "files/proxies/" /
+                proxy_li = Path(__dir__ / "files/proxies/http.txt" /
                                 argv[5].strip())
                 useragent_li = Path(__dir__ / "files/useragent.txt")
                 referers_li = Path(__dir__ / "files/referers.txt")
